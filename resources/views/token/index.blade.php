@@ -8,6 +8,7 @@
                 <div class="card-header">
                     Create your personal access token to gain access to our API
                 </div>
+                <h1>Hello World</h1>
                 <div class="card-body">
                     <passport-component></passport-component>
                 </div>
