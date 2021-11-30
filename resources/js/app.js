@@ -18,9 +18,15 @@ window.Vue = require('vue').default;
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+var test = require('./components/PassportTokenComponent.vue');
 
+var test2 = test.default;
 
-Vue.component('passport-component', require('./components/PassportTokenComponent.vue').default);
+console.log('test', test)
+console.log('test2', test2)
+
+Vue.component('passport-component', test2);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
